@@ -1,12 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Tab Counter",
-  "version": "1.0",
-  "description": "Displays the total number of open tabs as a badge on the extension icon.",
-
-  "permissions": [
-    "tabs"
-  ],
+  "name": "Browser Tab Counter",
+  "version": "1.0.2",
+  "description": "Easily track and manage the total number of open browser tabs in real-time with a clean badge counter.",
 
   "background": {
     "service_worker": "background.js"
@@ -17,8 +13,8 @@
   },
 
   "icons": {
-    "16":  "icons/icon16.png",
-    "48":  "icons/icon48.png",
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   }
 }
