@@ -58,3 +58,11 @@ Chrome Tab Counter is completely open-source. It does not collect, store, or tra
 
 ** 📄 License **
 Distributed under the open-source MIT License. Contributions and pull requests are welcome!
+
+---
+
+## Screenshots
+
+The extension has no popup UI — it lives entirely as a live badge on the toolbar icon, showing the current window’s tab count (per-window counts via per-tab badge overrides).
+
+![Browser Tab Counter](docs/screenshots/01-extension.png)
